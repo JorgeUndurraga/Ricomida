@@ -1,0 +1,96 @@
+*{
+  font-family: 'Cabin', sans-serif;
+}
+
+.body {
+  width: 100vw;
+}
+
+h1{
+  text-align: left;
+  font-weight: bold
+}
+
+h5{
+  font-weight: bold
+}
+
+/* línea en el header */
+hr{
+  height: 2px;
+  background-color: black;
+  }
+ 
+ 
+  #p_suscribete{
+    font-weight:bold;
+    font-size: 5vh;
+  }
+
+h5.linea{
+  margin-bottom: 3em;
+  display: inline-block;
+  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+}
+
+/* puntos en el carrusel */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #373a3c ;
+  }
+  
+  .carousel {
+    width:97%;
+    margin: auto;
+  }
+
+/* El siguiente fue creado para probar una
+de las funcionalidades para transformar
+el texto en rojo
+
+  .dbl{
+    color:#e83e8c;
+  }
+*/
+
+  h5.dbl{
+    color:#e83e8c;
+  }
+
+
+.navbar {
+  background-color: #373a3c ;
+	margin:0;
+	padding-left: 10vw;
+  padding-right: 10vw;
+}
+#pizza{
+  width: 100%;
+}
+.contenedor{ /*para los márgenes que contienen las tarjetas*/
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+  margin-bottom: 10vh !important; /*espacio entre la tarejta de arriba y la de abajo*/
+}
+
+.card-title{
+  font-weight: bold; /*grosor de los títulos*/
+}
+
+.card-link{
+  font-weight: bold;
+}
+
+footer{
+  background-color: #e83e8c;
+  padding-top: 3.5vh;
+  height: 20vh;
+  align-content: center;
+}
